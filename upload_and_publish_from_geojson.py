@@ -18,9 +18,9 @@ print ('adding GeoJson file to your ArcGIS Online account..')
 # special note of how the `type` property is `GeoJson` 
 # an odd choice of spelling and we don't really doc this explictly
 item_properties = {
-    'title': 'some title',
-    'tags': 'some, tags',
-    'type': 'GeoJson'
+  'title': 'some title',
+  'tags': 'some, tags',
+  'type': 'GeoJson'
 }
 geojson_item = gis.content.add(item_properties, in_geojson)
 
